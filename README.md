@@ -12,6 +12,8 @@ Tools for working with the [Familinx](https://familinx.org) dataset.
 
 Remove the first line (the field names) from `profiles-anon.txt` before importing into Postgres.
 
-## License
+## Licens
 
-MIT.
+My code is licensed under the MIT license.
+
+Data in the output/ directory is derived from the Familinx dataset and follows their license.

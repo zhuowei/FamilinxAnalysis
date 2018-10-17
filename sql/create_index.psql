@@ -1,0 +1,1 @@
+create index profiles_birth_and_death_years on profiles (birth_year, death_year);
