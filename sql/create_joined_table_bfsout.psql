@@ -1,0 +1,3 @@
+drop table if exists profiles_bfsjoined;
+create table profiles_bfsjoined as
+select * from profiles inner join profileids_bfsout using (profileid);

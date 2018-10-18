@@ -1,0 +1,5 @@
+drop table if exists profileids_bfsout;
+create table profileids_bfsout (
+profileid integer primary key
+);
+copy profileids_bfsout from '/tmp/bfs_filled.txt';
