@@ -1,0 +1,5 @@
+copy
+(
+select profileid from profiles where birth_year is not null and death_year is not null and birth_year > 1700 and birth_year <= 1809 and death_year >= 1809
+)
+to '/tmp/profileid_alive_during_1809.txt';
