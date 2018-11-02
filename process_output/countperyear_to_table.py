@@ -30,7 +30,7 @@ def countperyearonlytotal(infile, startyear=1800):
 # returns only the y values
 def bfsout_output(filename):
 	with open(filename, "r") as infile:
-		return [int(a[1]) for a in countperyearonlytotal(filename)]
+		return [int(a[1]) for a in countperyearonlytotal(infile)]
 # returns (xvalues, total, male, female)
 def fullcount_output(filename1, filename2):
 	with open(filename1, "r") as infile1, open(filename2, "r") as infile2:
