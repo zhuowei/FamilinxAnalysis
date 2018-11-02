@@ -1,0 +1,19 @@
+digraph {
+AmbersonFather_1 -> { Olivia_2,Anne_3 }
+AmbersonMother_4 -> { Olivia_2,Anne_3 }
+CarlyleFather_5 -> { Frederick_6 }
+CarlyleMother_7 -> { Frederick_6 }
+CollingwoodFather_8 -> { Neville_9,Peregrine_10 }
+CollingwoodMother_11 -> { Neville_9,Peregrine_10 }
+LordRavencroft_12 -> { Alexander_13 }
+RavenscroftMother_14 -> { Alexander_13 }
+George_15 -> { Charles_16,Elyssa_17,Angeline_18,Kat_19 }
+Olivia_2 -> { Charles_16,Elyssa_17,Angeline_18,Kat_19 }
+Charles_16 -> { CharlesChild1_20,CharlesChild2_21 }
+Elyssa_17 -> { ElyssaChild1_22,ElyssaChild2_23,ElyssaChild3_24 }
+Peregrine_10 -> { ElyssaChild1_22,ElyssaChild2_23,ElyssaChild3_24 }
+Angeline_18 -> { AngelineChild1_25 }
+Frederick_6 -> { AngelineChild1_25 }
+Kat_19 -> { ClarissaR_26,OliviaR_27,ArchibaldR_28 }
+Alexander_13 -> { ClarissaR_26,OliviaR_27,ArchibaldR_28 }
+}

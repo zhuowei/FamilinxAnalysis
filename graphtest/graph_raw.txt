@@ -1,0 +1,17 @@
+AmbersonFather,Olivia,Anne
+AmbersonMother,Olivia,Anne
+CarlyleFather,Frederick
+CarlyleMother,Frederick
+CollingwoodFather,Neville,Peregrine
+CollingwoodMother,Neville,Peregrine
+LordRavencroft,Alexander
+RavenscroftMother,Alexander
+George,Charles,Elyssa,Angeline,Kat
+Olivia,Charles,Elyssa,Angeline,Kat
+Charles,CharlesChild1,CharlesChild2
+Elyssa,ElyssaChild1,ElyssaChild2,ElyssaChild3
+Peregrine,ElyssaChild1,ElyssaChild2,ElyssaChild3
+Angeline,AngelineChild1
+Frederick,AngelineChild1
+Kat,ClarissaR,OliviaR,ArchibaldR
+Alexander,ClarissaR,OliviaR,ArchibaldR

@@ -26,6 +26,8 @@ Tools for working with the [Familinx](https://familinx.org) dataset.
 - `bfsout_make_queries_per_year.py`: combination of the two above scripts, used to process the one-in-twenty filtered data
 - `varying_bfsout_make_queries_per_year.py`: same script as above, but with tweakable table name; used to process 1%, 10%, 15%, and 20% filtered data
 
+`graphtest`: a sample family tree for testing ReadNodes.java, and scripts to graph the result.
+
 ## Tips
 
 Remove the first line (the field names) from `profiles-anon.txt` before importing into Postgres.
