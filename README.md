@@ -25,6 +25,7 @@ Tools for working with the [Familinx](https://familinx.org) dataset.
 - `make_queries_per_year_alive.py`: same as above, but takes currently alive people into account. Used for 1900-2010
 - `bfsout_make_queries_per_year.py`: combination of the two above scripts, used to process the one-in-twenty filtered data
 - `varying_bfsout_make_queries_per_year.py`: same script as above, but with tweakable table name; used to process 1%, 10%, 15%, and 20% filtered data
+- `import_profileids_ratio.py`: combines `import_profile_ids_bfsout.psql` and `create_joined_table_bfsout.psql` for the 1/10/15/20% alternate ratio BFS output
 
 `graphtest`: a sample family tree for testing ReadNodes.java, and scripts to graph the result.
 
